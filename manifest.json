@@ -1,0 +1,21 @@
+{
+ "background": {"scripts": ["background.js"]},
+ "browser_action": {
+ "default_icon": "img/landingicon-128.png",
+ "default_title": "AU Landing COMP266 Bookmarker"
+ },
+ "name": "AU Landing",
+ "description": "Bookmark a site in Athabasca University's ELGG social media platform",
+ "homepage_url": "https://landing.athabascau.ca/",
+ "icons": {
+     "16": "img/landingicon-16.png",
+     "48": "img/landingicon-48.png",
+     "128": "img/landingicon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
