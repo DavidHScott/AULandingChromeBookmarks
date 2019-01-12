@@ -3,7 +3,7 @@ Because Chrome doesn't do bookmarklets,  this Chrome Extension adds bookmarks to
 
 At the moment, it only submits bookmarks to your personal group or to the group for COMP266, but options are coming which will give you a list of groups you belong to in which to post bookmarks.  
 
-ELGG is a bit persnickity about posting in groups. If you link to the generic add bookmark page, you can change the main group to your desired course, but none of the subfolders show up, so you have no choice but to submit to the Main folder.  Submitting with the course code URL is preferable.
+ELGG is a bit persnickity about posting in groups. If you link to the generic add bookmark page, you can change the main group to your desired course, but none of the subfolders show up, so you have no choice but to submit to the Main folder.  Submitting with the course code URL is preferable.  Right now Comp266 is hard coded since that was the easiest, and within my Javascript current knowledge. I'll get the options working by next semester.
 
 # Installation
 
