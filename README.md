@@ -7,9 +7,9 @@ ELGG is a bit persnickity about posting in groups. If you link to the generic ad
 
 # Installation
 
--Download the zip and extract it in a permanent location
--Go to chrome://extensions/ in your Chrome browser
--turn on _Developer mode_ and _load unpacked extension_ 
--choose the folder with the extension files to load the extension. 
+- Download the zip and extract it in a permanent location
+- Go to chrome://extensions/ in your Chrome browser
+- turn on _Developer mode_ and _load unpacked extension_ 
+- choose the folder with the extension files to load the extension. 
 
 This extension is not officially supported by or endorsed by Athabasca University.
