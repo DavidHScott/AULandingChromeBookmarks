@@ -1,0 +1,1 @@
+location.href = 'https://landing.athabascau.ca/bookmarks/add/?address=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(document.title)
