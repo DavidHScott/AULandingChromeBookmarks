@@ -14,6 +14,8 @@ This plugin was built as I was learning Javascript, so it's probably got a lot o
 - Download the zip and extract it in a permanent location
 - Go to chrome://extensions/ in your Chrome browser
 - turn on _Developer mode_ and _load unpacked extension_ 
-- choose the folder with the extension files to load the extension. 
+- choose the folder with the extension files to load the extension.
+- right click the extension icon in your browser and choose Options. 
+- Add your AU username and save. Your bookmarks and available courses should appear on the options page if you entered the correct id.
 
 This extension is not officially supported by or endorsed by Athabasca University.
