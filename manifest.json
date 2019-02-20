@@ -1,6 +1,7 @@
 {
     "background": {
-        
+        "scripts": ["js/background.js"],
+        "persistent": false
     },
     "browser_action": {
         "default_icon": "img/landingicon-128.png",
@@ -17,10 +18,11 @@
         "128": "img/landingicon-128.png"
     },
     "permissions": [
-     "tabs",
-     "http://*/*",
-     "https://*/*"
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "storage"
  ],
-    "version": "0.3",
+    "version": "0.7",
     "manifest_version": 2
 }

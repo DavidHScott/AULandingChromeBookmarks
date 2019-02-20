@@ -1,9 +1,12 @@
-# AULandingChromeBookmarks
-Because Chrome doesn't do bookmarklets,  this Chrome Extension adds bookmarks to the AU Landing service.
+# AU Landing Chrome Bookmarks
 
-At the moment, it only submits bookmarks to your personal group or to the group for COMP266, but options are coming which will give you a list of groups you belong to in which to post bookmarks.  
+![Screenshot](img/screenshot.png)
+This Chrome Extension adds toolbar bookmarks to the AU Landing service in your own account and in groups that you've joined. I created this because bookmarklets are more trouble than they're worth on Chrome, including the need to keep the bookmarks bar visible, and even if that weren't objectionable, each group would need their own bookmarklet because of the way ELGG works.
 
-ELGG is a bit persnickity about posting in groups. If you link to the generic _Add Bookmark_ page, you can change the main group to your desired course, but none of the subfolders show up, so you have no choice but to submit to the Main folder.  Submitting with the course code URL is preferable due to this 'feature'.  Right now Comp266 is hard coded since that was the easiest, and within my current Javascript knowledge. I'll get the options working by next semester.
+This extension fixes that issue for me. It probably will not work so well if you've joined more than 10 groups. I will eventually code a way to let users choose which groups they want to create bookmarks in and exlude those they don't, but for now, you're on your own if you've joined every single group on the Landing for giggles.
+
+This plugin was built as I was learning Javascript, so it's probably got a lot of code that could be improved, and probably will be at some point in the future.  
+
 
 # Installation
 

@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>AU Landing Bookmarker</title>
+    <script src="js/getuser.js" type="text/javascript"></script>
    
-
+  <script src="js/jquery.3.2.1.min.js" type="text/javascript"></script>
     <style>
         button {
 
@@ -27,15 +28,20 @@
         h3 {
             text-align: center;
         }
-
+        #userid {
+            font-size: 5px;
+        }
     </style>
+  
 </head>
 
 <body>
+   <div id="userid"></div>
     <h3>Save Page to:</h3>
     <div id="courses">
+       <!-- TODO: Find a way to make this more reliable/faster-->
         <button value="0">My Bookmarks</button><br />
-        <button value="40166">COMP 266</button>
+        
     </div>
 
 </body>
