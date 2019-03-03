@@ -1,4 +1,4 @@
-/*this file doesn't even get used when there's a popup. It's just here for legacy purposes */
+/*this file doesn't even get used when there's a popup. It's just here for legacy purposes 
 var landinguser;
 function findUser() {
 
@@ -28,3 +28,4 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     getCourseUrl()
     courseurl = getCourseUrl();
 });
+*/

@@ -5,7 +5,7 @@
     },
     "browser_action": {
         "default_icon": "img/landingicon-128.png",
-        "default_title": "AU Landing COMP266 Bookmarker",
+        "default_title": "AU Landing Bookmarker",
         "default_popup": "popup.html"
     },
     "name": "AU Landing",
@@ -23,6 +23,6 @@
         "https://*/*",
         "storage"
  ],
-    "version": "0.7",
+    "version": "0.8",
     "manifest_version": 2
 }
