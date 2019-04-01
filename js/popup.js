@@ -1,9 +1,16 @@
 /* FIXME: getting the courses to load is spotty and slow. Find a fix. */
 
+
 document.body.onload = function () {
     chrome.storage.sync.get("user", function (result) {
         landinguser = result.user;
         coursesurl = "https://landing.athabascau.ca/groups/member/" + landinguser + "?view=rss";
+    });
+    
+     chrome.storage.sync.get("guid", function (result) {
+        landingguid = result.guid;
+         document.querySelector("#guid").value=landingguid;
+        
     });
 };
 

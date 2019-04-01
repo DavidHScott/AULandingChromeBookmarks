@@ -2,10 +2,15 @@
  */
 document.body.onload = function () {
     chrome.storage.sync.get("user", function (result) {
-        document.querySelector("#userid").value = result.user;
+        document.querySelector("#username").value = result.user;
         landinguser = result.user;
 
     });
+       chrome.storage.sync.get("guid", function (result) {
+        document.querySelector("#uid").value = result.guid;
+        landinguser = result.guid;
+
+    }); 
 };
 
 //var landinguser;
@@ -69,14 +74,26 @@ $.get("https://landing.athabascau.ca/groups/member/" + landinguser + "?view=rss"
 });
 
 const SUBMIT = document.querySelector("#submit");
-
+const GUID = document.querySelector("#guid");
 
 document.querySelector("#submit").onclick = function (e) {
-    var d = document.querySelector("#userid").value;
+    var d = document.querySelector("#username").value;
     chrome.storage.sync.set({
         "user": d
     }, function () {
-        alert("User is set to " + d);
+        alert("Username is set to " + d);
+        window.location.reload(true);
+
+    });
+    e.preventDefault();
+}
+
+document.querySelector("#guid").onclick = function (e) {
+    var g = document.querySelector("#uid").value;
+    chrome.storage.sync.set({
+        "guid": g
+    }, function () {
+        alert("guid is set to " + g);
         window.location.reload(true);
 
     });
